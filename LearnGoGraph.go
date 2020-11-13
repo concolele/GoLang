@@ -22,22 +22,6 @@ type Skill struct {
    Desc_skill  string     `json:"desc_skill"`
 }
 
-
-// type Author struct {
-// 	ID        int       `json:"id"`
-// 	Name      string    `json:"name"`
-// 	Email     string    `json:"email"`
-// 	CreatedAt time.Time `json:"created_at"`
-// }
-
-// type Post struct {
-// 	ID        int       `json:"id"`
-// 	Title     string    `json:"title"`
-// 	Content   string    `json:"content"`
-// 	AuthorID  int       `json:"author_id"`
-// 	CreatedAt time.Time `json:"created_at"`
-// }
-
 const (
 	user     = "postgres"
 	password = "admin123"
